@@ -1,1 +1,64 @@
-{"name":"agentic-whatsapp","version":"0.1.1","description":"Send opted-in WhatsApp messages with Twilio or Meta WhatsApp Cloud API from a CLI, MCP server, or agent.","keywords":["whatsapp","twilio","meta","whatsapp-cloud-api","opted-in-messaging","messaging","cli","mcp","agent"],"license":"MIT","author":"Pooria Arab","repository":{"type":"git","url":"https://github.com/pooriaarab/agentic-whatsapp.git"},"type":"module","engines":{"node":">=18"},"files":["dist"],"publishConfig":{"access":"public"},"mcpName":"io.github.pooriaarab/agentic-whatsapp","main":"./dist/index.js","types":"./dist/index.d.ts","exports":{".":{"types":"./dist/index.d.ts","import":"./dist/index.js"}},"bin":{"agentic-whatsapp":"./dist/cli.js","agentic-whatsapp-mcp":"./dist/mcp-bin.js"},"scripts":{"build":"tsup","typecheck":"tsc --noEmit","test":"vitest run","clean":"rm -rf dist"},"dependencies":{"@modelcontextprotocol/sdk":"^1.12.0","zod":"^3.25.0"},"devDependencies":{"@types/node":"^22.0.0","tsup":"^8.0.0","typescript":"^5.6.0","vitest":"^3.0.0"}}
+{
+  "name": "agentic-whatsapp",
+  "version": "0.1.1",
+  "description": "WhatsApp text messaging through Twilio or Meta WhatsApp Cloud API with a Node.js SDK, CLI, MCP tool, and dry-run previews.",
+  "keywords": [
+    "whatsapp",
+    "twilio",
+    "meta",
+    "whatsapp-cloud-api",
+    "text-messaging",
+    "nodejs",
+    "typescript",
+    "cli",
+    "mcp",
+    "ai-agents",
+    "dry-run",
+    "quiet-hours"
+  ],
+  "license": "MIT",
+  "author": "Pooria Arab",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pooriaarab/agentic-whatsapp.git"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "mcpName": "io.github.pooriaarab/agentic-whatsapp",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "bin": {
+    "agentic-whatsapp": "./dist/cli.js",
+    "agentic-whatsapp-mcp": "./dist/mcp-bin.js"
+  },
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.6.0",
+    "vitest": "^3.0.0"
+  }
+}
