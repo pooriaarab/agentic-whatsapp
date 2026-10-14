@@ -1,6 +1,6 @@
 {
   "name": "agentic-whatsapp",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "WhatsApp text messaging through Twilio or Meta WhatsApp Cloud API with a Node.js SDK, CLI, MCP tool, and dry-run previews.",
   "keywords": [
     "whatsapp",
